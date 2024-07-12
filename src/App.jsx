@@ -1,3 +1,4 @@
+import Hero from "./components/Hero"
 
 
 function App() {
@@ -5,7 +6,7 @@ function App() {
 
   return (
     <>
-      <h1 className="text-3x font-light underline">Home</h1>
+      <Hero/>
     </>
   )
 }
