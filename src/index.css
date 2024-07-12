@@ -21,3 +21,12 @@ body {
   margin: 0;
   padding: 0;
 }
+
+.thin-text {
+  font-family: 'Inter', sans-serif;
+  font-weight: 100;
+}
+
+a:hover{
+  opacity: 80%;
+}
