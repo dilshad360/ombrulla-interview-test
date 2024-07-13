@@ -1,36 +1,11 @@
 import LeftArrowIcon from "../assets/svgs/left-arrow.svg";
 import RightArrowIcon from "../assets/svgs/right-arrow.svg";
+import { destinations } from "../const";
 import Card from "./Card";
 
-import Dest1 from "../assets/images/dest-1.png";
-import Dest2 from "../assets/images/dest-2.jpg";
-import Dest3 from "../assets/images/dest-3.jpg";
 
 function TopDestination() {
 
-    const destinations = [
-        {
-            title: "Paradise Beach, Bantayan Island",
-            place: "Rome, Italy",
-            price: "550.16",
-            rating: "4.8",
-            image: Dest1,
-        },
-        {
-            title: "Ocean with full of Colors",
-            place: "Maldives",
-            price: "20.99",
-            rating: "4.5",
-            image: Dest2,
-        },
-        {
-            title: "Mountain View, Above the cloud",
-            place: "United Arab Emeries ",
-            price: "150.99",
-            rating: "5.0",
-            image: Dest3,
-        },
-    ];
 
     return (
         <div className="px-4 md:px-16 lg:px-40 py-8">
