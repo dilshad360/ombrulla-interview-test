@@ -9,6 +9,13 @@ export default {
       colors: {
         'primary': '#5D50C6',
         'secondary': '#F85E9F',
+      },
+      screens: {
+        'sm': '640px',
+        'md': '768px',
+        'lg': '1080px',
+        'xl': '1280px',
+        '2xl': '1536px',
       }
     },
   },

@@ -24,13 +24,13 @@ function Hero() {
                     <button className="bg-primary text-white px-6 py-3 rounded-3xl hover:opacity-70 transition-opacity ease-in-out shadow-xl">
                         Get Started
                     </button>
-                    <button className="flex justify-center leading-none items-center gap-2 px-6 py-3 rounded-3xl hover:opacity-70 transition-opacity ease-in-out border">
+                    <button className="flex justify-center leading-none items-center gap-2 px-6 py-3 rounded-3xl hover:opacity-70 transition-opacity ease-in-out border animate-pulse">
                         <img src={PlayIcon} alt="bag-icon" /> Watch Demo
                     </button>
                 </div>
             </div>
             <div className="relative w-full order-first lg:order-last lg:w-3/5 min-h-[calc(64vh-6rem)] sm:min-h-[calc(80vh-6rem)] px-6 mb-10">
-            <img src={HeroFull} alt="HeroImageFull" />
+                <img src={HeroFull} alt="HeroImageFull" />
                 {/* <img
                     src={HeroImage3}
                     width={640}

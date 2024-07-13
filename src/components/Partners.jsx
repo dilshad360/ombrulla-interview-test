@@ -5,8 +5,6 @@ import Partner4 from "../assets/svgs/partners/partner-4.svg";
 import Partner5 from "../assets/svgs/partners/partner-5.svg";
 
 
-
-
 function Partners() {
 
   const partners = [ Partner1, Partner2, Partner3, Partner4, Partner5]

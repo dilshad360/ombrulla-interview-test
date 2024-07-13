@@ -1,4 +1,5 @@
 import Hero from "./components/Hero"
+import KeyFeatures from "./components/KeyFeatures"
 import Partners from "./components/Partners"
 import Services from "./components/Services"
 import TopDestination from "./components/TopDestination"
@@ -15,6 +16,7 @@ function App() {
       <Services/>
       <TopDestination/>
       <TravelPoint/>
+      <KeyFeatures/>
     </>
   )
 }
