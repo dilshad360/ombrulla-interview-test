@@ -1,5 +1,6 @@
 import Hero from "./components/Hero"
 import Partners from "./components/Partners"
+import TopDestination from "./components/TopDestination"
 
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <>
       <Hero/>
       <Partners/>
+      <TopDestination/>
     </>
   )
 }
