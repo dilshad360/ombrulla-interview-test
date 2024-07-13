@@ -3,21 +3,23 @@ import MenuIcon from "../../assets/svgs/menu.svg";
 
 function Header() {
     return (
-        <header className="flex px-4 md:px-16 lg:px-40 py-8  justify-between  items-center">
+        <header className="flex px-4 md:px-16 lg:px-40 py-8  justify-between items-center">
             <img className="block lg:hidden order-last sm:order-first" src={MenuIcon} alt="menu-icon" />
+            <a href="/">
             <img src={Logo} alt="logo" />
+            </a>
             <nav className="flex-1 hidden lg:block ">
                 <ul className="flex justify-center gap-14 text-sm text-gray-500">
-                    <a href="#">
+                    <a href="/">
                     <li className="text-black">Home</li>
                     </a>
-                    <a href="#">
+                    <a href="/discover">
                     <li>Discover</li>
                     </a>
-                    <a href="#">
+                    <a href="/deals">
                     <li>Special Deals</li>
                     </a>
-                    <a href="#">
+                    <a href="/contact">
                     <li>Contact</li>
                     </a>
                 </ul>
