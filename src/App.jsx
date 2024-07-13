@@ -1,4 +1,5 @@
 import Hero from "./components/Hero"
+import Partners from "./components/Partners"
 
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
   return (
     <>
       <Hero/>
+      <Partners/>
     </>
   )
 }

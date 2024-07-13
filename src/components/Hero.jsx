@@ -32,13 +32,13 @@ function Hero() {
                 <img
                     src={HeroImage3}
                     width={640}
-                    alt="Image 1"
+                    alt="Image 3"
                     className="absolute top-0 left-1/2 -translate-x-1/2 object-contain"
                 />
                 <img
                     src={HeroImage2}
                     width={420}
-                    alt="Image 1"
+                    alt="Image 2"
                     className="absolute bottom-0 left-1/2 -translate-x-1/2 w-4/5 sm:w-[420px] object-contain"
                 />
                 <img
