@@ -1,8 +1,9 @@
 import BagIcon from "../assets/svgs/bag.svg";
 import PlayIcon from "../assets/svgs/play.svg";
-import HeroImage1 from "../assets/images/hero-1.png";
-import HeroImage2 from "../assets/images/hero-2.png";
-import HeroImage3 from "../assets/images/hero-3.png";
+// import HeroImage1 from "../assets/images/hero-1.png";
+// import HeroImage2 from "../assets/images/hero-2.png";
+// import HeroImage3 from "../assets/images/hero-3.png";
+import HeroFull from "../assets/images/hero-full.png";
 
 function Hero() {
     return (
@@ -29,7 +30,8 @@ function Hero() {
                 </div>
             </div>
             <div className="relative w-full order-first lg:order-last lg:w-3/5 min-h-[calc(64vh-6rem)] sm:min-h-[calc(80vh-6rem)] px-6 mb-10">
-                <img
+            <img src={HeroFull} alt="HeroImageFull" />
+                {/* <img
                     src={HeroImage3}
                     width={640}
                     alt="Image 3"
@@ -46,7 +48,7 @@ function Hero() {
                     width={580}
                     alt="Image 1"
                     className="absolute bottom-0 left-1/2 -translate-x-1/2  object-contain"
-                />
+                /> */}
             </div>
         </div>
     );
